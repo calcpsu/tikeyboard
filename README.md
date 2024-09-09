@@ -28,6 +28,7 @@ Some sources (apologies if links expire):
 
 Please do let me know if you have requests for further types.
 And if you'd like a PCB or a built one, let me know!
+Contact me at: info@calcpsu.com.au
 
 ## License
 
