@@ -38,7 +38,7 @@ Note: for rev0, I made an error with the offset of two of the pins (R3 and R8), 
 4. Solder lead wires to main board, and trim.
 5. Reassemble calculator.
 
-![image](images/inprogress.png)
+![image](images/inprogress.jpg)
    
 ## Requests & PCBs:
 
