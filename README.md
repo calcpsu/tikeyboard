@@ -4,7 +4,7 @@
 As the original keyboards are generally unrepairable, this is a replacement using a PCB and micro tactile switches.
 Enjoy the use of technology advanced during the mobile phone era (0.8mm thickness tact switches!).
 
-![image](render.png)
+![image](images/render.png)
 
 ## Details: ##
 
@@ -24,6 +24,22 @@ Some sources (apologies if links expire):
 * Amazon: [eMagTech 50pcs 4 Pin Patch Tact Switch Tactile Switch for Car Remote Control Key 4.8x4.8x0.8mm 4 Pin Tactile Push Button Switch Metal Plastic Switch](https://www.amazon.com.au/eMagTech-Tactile-Control-4-8x4-8x0-8mm-Plastic/dp/B0CN9467VQ)
 ![image](tactswitch.png)
 
+## How to: ##
+
+### Building the keyboard: ###
+1. Solder the tact switches to the PCB. Ensure they are accurately located (use the silkscreen layout), and flat on the PCB.
+2. Solder 50mm (2in) approx. lead wires (I use copper strands from 2.5mm^2 house wiring) to each wire header, on the front (key) side of the board, extending upwards.
+Note: for rev0, I made an error with the offset of two of the pins (R3 and R8), which is easily corrected with the lead wires. Rev1 of the board has this fixed, so it's a direct match for the original.
+
+### Installation: ###
+1. Open the calculator case (typically for Majestics: unclip the clips inside the battery compartment, and then push the rear case part downwards to separate front and back).
+2. Desolder the original keyboard at the main board.
+3. Assemnble into the calculator, align all the lead wires and insert into the main board. It is imporatant to ensure the lead wires are bent/routed as per the original keyboard so the case will fit back together. This varies between calculator types.
+4. Solder lead wires to main board, and trim.
+5. Reassemble calculator.
+
+![image](images/inprogress.png)
+   
 ## Requests & PCBs:
 
 Please do let me know if you have requests for further types.
@@ -43,3 +59,8 @@ This work is licensed under a
 [cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
 [cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
 [cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
+
+## The paitent: ##
+A TI-45, the only Majestic with a VFD display, available in the European market.
+Unusual, as most of this series had LED displays.
+![image](images/ti45.jpg)
