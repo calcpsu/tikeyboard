@@ -14,13 +14,12 @@ Two versions are included:
 * 5 Column x 8 Row: made for a TI45, but I understand should also fit a standard TI30
 * 5 Column x 9 Row: suits a TI58, TI59 programmable
 
-## Swtich Type: ##
+## Switch Type: ##
 
-Switches are a reasonably common SMD type (Dimensions: 4.8mm x 4.8mm x 0.8mm) available from electrical component wholesalers and elsewhere online at low cost.
-As long as it matches the drawing below, it should be compatible.
+Switches are a reasonably common SMD type (Dimensions: 4.8mm x 4.8mm x 0.8mm) available from electrical component wholesalers and elsewhere online at low cost. There is another type with a metal top cover, often sold as '1.0mm' thick, but is likely identical button underneath. These work well too (and might be a bit more durable). As long as it matches the drawing below, it should be compatible.
 Some sources (apologies if links expire):
 * Digikey: [PTS526 SM08 SMTR2 LFS](https://www.digikey.com.au/short/9qb5pmcp)
-* Aliexpress: [100 Pcs/lot Membrane Switch 4x4x 0.8MM 4X4X0.8mm Tactile Push Button Switch Tact 4 Pin 4*4*0.8mm Switch Micro Switch SMD](https://www.aliexpress.com/item/4001331647427.html)
+* Aliexpress: [100 Pcs/lot Membrane Switch 4x4x 0.8MM 4X4X0.8mm Tactile Push Button Switch Tact 4 Pin 4*4*0.8mm Switch Micro Switch SMD](https://www.aliexpress.com/item/4001331647427.html) or [SJMS 100pcs Micro Tactile Push Button Touch Tact Waterproof Switch 4x4x1 SMD 4 Pin SMT 4*4*1.0 mm Ultra thin mini Switch](https://www.aliexpress.com/item/1005001828986512.html)
 * Amazon: [eMagTech 50pcs 4 Pin Patch Tact Switch Tactile Switch for Car Remote Control Key 4.8x4.8x0.8mm 4 Pin Tactile Push Button Switch Metal Plastic Switch](https://www.amazon.com.au/eMagTech-Tactile-Control-4-8x4-8x0-8mm-Plastic/dp/B0CN9467VQ)
 ![image](images/tactswitch.png)
 
@@ -39,6 +38,13 @@ Note: for rev0, I made an error with the offset of two of the pins (R3 and R8), 
 5. Reassemble calculator.
 
 ![image](images/inprogress.jpg)
+
+## Replacing the foam:"
+
+The foam layer between the keycaps and the switches is significant to maintain the feel of the keypad. Without it, the keycaps rattle and the key feel is plasticky. It is often crumbly and degraded with age. It can be replaced with a slice of 1mm EVA foam, again widely available from craft stores and online:
+* [NEW 1pcs Thickness 1/2/3/5/10mm Eva Foam Sheets Sound-Absorbing Noise Spone Foam Craft Eva Sheets Handmade Model Making Material](https://www.aliexpress.com/item/1005005567697486.html)
+![20241119_144019](https://github.com/user-attachments/assets/06ba84af-50bd-492d-abc5-70b0faa52901)
+
    
 ## Requests & PCBs:
 
