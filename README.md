@@ -27,29 +27,35 @@ Some sources (apologies if links expire):
 
 ### Building the keyboard: ###
 1. Solder the tact switches to the PCB. Ensure they are accurately located (use the silkscreen layout), and flat on the PCB.
+   - The switches are small and are easy to overheat when soldering - which can damage and change the feel. Use a temperature controlled iron and try to limit the heat you apply!
+   - The switches need to be flat on the board, if they are raised (which can occur when soldering), the buttons will have inconsistent feel.
+   - I have had some success using a tiny dab of superglue applied with a needle to locate the switches prior to soldering.
+   - Do not press the switches down with any sharp objects (tweezers, screwdrivers, etc.) - this can deform the dome and again, result in inconsistent feel.
 2. Solder 50mm (2in) approx. lead wires (I use copper strands from 2.5mm^2 house wiring) to each wire header, on the front (key) side of the board, extending upwards.
-Note: for rev0, I made an error with the offset of two of the pins (R3 and R8), which is easily corrected with the lead wires. Rev1 of the board has this fixed, so it's a direct match for the original.
+
+_Note: for Rev0, I made an error with the offset of two of the pins (R3 and R8), which is easily corrected with the lead wires. Rev1 of the board has this fixed, so it's a direct match for the original._
 
 ### Installation: ###
-1. Open the calculator case (typically for Majestics: unclip the clips inside the battery compartment, and then push the rear case part downwards to separate front and back).
+_Note: These calculators have early MOS ICs, which have no or minimal ESD protection in comparison to modern ICs. It is more important to take precautions than you might be used to with modern electronics!. Use an ESD mat and strap if you have one._
+1. Open the calculator case (typically for Majestics: unclip the clips inside the battery compartment with a narrow ruler or wide screwdriver, and then push the rear case part downwards to separate front and back).
 2. Desolder the original keyboard at the main board.
-3. Assemnble into the calculator, align all the lead wires and insert into the main board. It is imporatant to ensure the lead wires are bent/routed as per the original keyboard so the case will fit back together. This varies between calculator types.
+3. Assemble into the calculator, align all the lead wires and insert into the main board. It is imporatant to ensure the lead wires are bent/routed as per the original keyboard so the case will fit back together. This varies between calculator types.
 4. Solder lead wires to main board, and trim.
 5. Reassemble calculator.
 
 ![image](images/inprogress.jpg)
 
-## Replacing the foam:"
+## Replacing the foam:
 
 The foam layer between the keycaps and the switches is significant to maintain the feel of the keypad. Without it, the keycaps rattle and the key feel is plasticky. It is often crumbly and degraded with age. It can be replaced with a slice of 1mm EVA foam, again widely available from craft stores and online:
 * [NEW 1pcs Thickness 1/2/3/5/10mm Eva Foam Sheets Sound-Absorbing Noise Spone Foam Craft Eva Sheets Handmade Model Making Material](https://www.aliexpress.com/item/1005005567697486.html)
 ![20241119_144019](https://github.com/user-attachments/assets/06ba84af-50bd-492d-abc5-70b0faa52901)
-
    
 ## Requests & PCBs:
 
 Please do let me know if you have requests for further types.
-And if you'd like a PCB or a built one, let me know!
+And if you'd like a PCB or a built one, let me know - happy to provide bare PCBs, kits or assembled keyboards (to order).
+
 Contact me at: info@calcpsu.com.au
 
 ## License
