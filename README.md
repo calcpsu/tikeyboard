@@ -25,6 +25,8 @@ Some sources (apologies if links expire):
 
 ## How to: ##
 
+Before committing to replacing your keyboard, please consider the risks involved in working on ancient electronics. Components are sensitive to ESD, plastics and PCBs are old and susceptible to mechanical damage (hairline cracking you may not even see!). If damaged, replacement parts are typically not available at all, so damage can be irrepairable. While I have successfully replaced the keyboards on a number of my calculators, I've lost at least one calculator to ESD death during a (not keyboard related) repair attempt. As such, I cannot provide any guarantees of success but I do wish you the best of luck if you do choose to proceed. The below instructions are provided for you to undertake at your own risk.
+
 ### Building the keyboard: ###
 1. Solder the tact switches to the PCB. Ensure they are accurately located (use the silkscreen layout), and flat on the PCB.
    - The switches are small and are easy to overheat when soldering - which can damage and change the feel. Use a temperature controlled iron and try to limit the heat you apply!
@@ -35,15 +37,54 @@ Some sources (apologies if links expire):
 
 _Note: for Rev0, I made an error with the offset of two of the pins (R3 and R8), which is easily corrected with the lead wires. Rev1 of the board has this fixed, so it's a direct match for the original._
 
-### Installation: ###
+### Installation (Majestic series TI30/TI55/Programmer/TI45 and similar): ###
 _Note: These calculators have early MOS ICs, which have no or minimal ESD protection in comparison to modern ICs. It is more important to take precautions than you might be used to with modern electronics!. Use an ESD mat and strap if you have one._
-1. Open the calculator case (typically for Majestics: unclip the clips inside the battery compartment with a narrow ruler or wide screwdriver, and then push the rear case part downwards to separate front and back).
+1. Open the calculator case: unclip the clips inside the battery compartment with a narrow ruler or wide screwdriver, and then push the rear case part downwards to separate front and back.
 2. Desolder the original keyboard at the main board.
 3. Assemble into the calculator, align all the lead wires and insert into the main board. It is imporatant to ensure the lead wires are bent/routed as per the original keyboard so the case will fit back together. This varies between calculator types.
 4. Solder lead wires to main board, and trim.
 5. Reassemble calculator.
 
 ![image](images/inprogress.jpg)
+
+### Installation (TI59 and similar): ###
+The TI59 is a more complex calculator - the below instructions worked for me, please do get in touch via issues or email if you have any questions or problems.
+_Note: These calculators have early MOS ICs, which have no or minimal ESD protection in comparison to modern ICs. It is more important to take precautions than you might be used to with modern electronics!. Use an ESD mat and strap if you have one._
+1. Remove battery
+2. Open calculator case by unscrewing the two fasteners on the back. Unclip the back case by lifting the back slightly, and sliding the back part of the case downwards to releasee the clips at the bottom.
+3. Remove 2x flex cables from the card reader, noting how these are routed around the components and case.
+4. Remove 4x screws from the card reader.
+5. Remove the card reader and power switch by lifting out.
+6. Use a small screwdriver to push up the two keyboard clips at the top of the keyboard via the cutouts in the mainboard.
+7. Lift the mainboard and keyboard out from the top: take care not to lose any keys (they are loose!). Clean up as much crumbled foam as you can from the keyboard area.
+8. Place the new foam pad over the keys.
+9. Carefully desolder the 14 keyboard wires from the mainboard and remove the keyboard, ensuring you repair any damaged tracks and clean up flux residue (I use IPA and lots of q-tips).
+10. Remove the black plastic spacer from the back of the keyboard.
+11. Cut off the small locating pins from the black spacer, and sand or file these completely flush.
+12. Locate the black spacer on the mainboard, and fix in place for reassembly with a very small amount of glue (e.g. superglue).
+13. Fit the new keyboard to the mainboard, **leaving the wires unsoldered for the moment.**
+14. Install the keyboard and mainboard into the front part of the case - slot the bottom of both in first, and gently press down the top until clipped in. Press around the mainboard to make sure everything is seated correctly.
+15. Reinstall the card reader with 4x screws.
+16. Check the action of the buttons, if feels ok continue, otherwise disassemble again (remove keyboard/mainboard) and see keyboard fit adjustment below.
+17. Reinstall the flex cables for the card reader. Ensure the flex cable is routed correctly (as you noted previously).
+18. Reinstall the back of the case by slotting into the bottom, and pressing up and down over. Take care not to damage the flex cables or components on the mainboard while doing so.
+19. Reinstall the two screws on the back of the case.
+20. Check the action of the buttons, if feels ok continue, otherwise disassemble again and see keyboard fit adjustment below.
+21. Now solder a few of the keyboard leadwires, accessing through the back of the battery compartment. You don't need to solder them all, just enough to make sure the relative position of the keyboard and mainboard is locked in.
+22. Now remove the back of the case and card reader flex cables, so you can solder and trim all the rest of the keyboard leadwires.
+23. Reinstall the card reader flex cables, reinstall the back of the case.
+24. Reinstall the battery (or connect to 3.3-5.0V power supply, taking care with polarity, which is marked on the mainboard) and test the keyboard/calculator works!
+
+#### Keyboard Fit Adjustment ###
+The keyboard is obviously not an exact copy of the original. The action of the small buttons is shorter than the original keyboard, and is slightly less tolerant to fit. You can adjust the fit through a number of methods, to address the two main possible problems:
+1. Keys are squished with reassembly of the back of the case, and constantly pressed (particularly bottom row):
+   a. Add tape or foam pieces to the front of the keyboard, to apply more pressure between the case front and the keyboard in the affected location.
+   b. Make sure the spacer between the keyboard and mainboard locating posts are completely flat / fully removed. You may want to sand the spacer flat (fine - 320 grit or higher - sandpaper on the bench, rub the spacer on this a few times and observe progress until area around each pin is visibly abraded).
+   c. File/sand the posts in the rear part of the case that go through the mainboard and contact the keyboard, to reduce pressure from the back of the case in the relevant locations (e.g. for bottom row issues, focus on the ones at the bottom of the case back). Don't go too far, or the key action may become loose.
+2. Keys rattle or feel loose (you may have gone too far with one of the above steps):
+   a. Make sure you have put that black spacer between the keyboard and mainboard. It's necessary to fully support the keyboard against the pressure from the foam pad.
+   b. Apply tape or foam to the back of the keyboard in key locations (where the case back posts contact and support the keyboard) to increase pressure toward the front of the case.
+   c. Consider a thicker foam pad between the keys (although this can increase the force required to press keys). It is unlikely you'll want more than 1.5mm.
 
 ## Replacing the foam:
 
