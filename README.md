@@ -33,7 +33,7 @@ Before committing to replacing your keyboard, please consider the risks involved
    - The switches need to be flat on the board, if they are raised (which can occur when soldering), the buttons will have inconsistent feel.
    - I have had some success using a tiny dab of superglue applied with a needle to locate the switches prior to soldering.
    - Do not press the switches down with any sharp objects (tweezers, screwdrivers, etc.) - this can deform the dome and again, result in inconsistent feel.
-2. Solder 50mm (2in) approx. lead wires (I use copper strands from 2.5mm^2 house wiring) to each wire header, on the front (key) side of the board, extending upwards.
+2. Solder 50mm (2in) approx. lead wires (I use copper strands from 2.5mm^2 house wiring) to each wire header, on the front (key) side of the board, extending upwards. _Note: for TI-59, the leadwires can be shorter (about 15mm is plenty)._
 
 _Note: for Rev0, I made an error with the offset of two of the pins (R3 and R8), which is easily corrected with the lead wires. Rev1 of the board has this fixed, so it's a direct match for the original._
 
